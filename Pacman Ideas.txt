@@ -1,0 +1,37 @@
+Additional ideas:
+Custom animations (respawn, killing ghosts)
+Webscraping (displaying a tweet about pacman)
+2 Player mode (Remote play if possible)
+Custom assets
+Ghosts with special abilities
+Sound effects
+Rage meter
+Additional levels (lvl 2 and lvl 3)
+Dynamic map (moving doors, etc)
+Adding more ghosts with score
+Customization of pacman (appearance)
+Hash algorithm (for storing passwords)
+Ai algorithm (ghosts pathfinding)
+
+Processes:
+Pacman
+4 Ghosts
+Gamelogic
+InputHandler
+Renderer
+
+Improvements:
+Timeouts on processes
+
+How to proceed:
+Map (Designing layout in text file, implementing map assets(wall, small dot, big dot))
+
+Core:
+Main Menu
+Displaying maze, score and lives
+Animating pacman and ghosts
+Input Handler
+Implementing game logic(eating dots, score, lives, collision)
+Implementing ghosts pathfinding (Q learning)
+Death animation, respawn animation (pacman and ghosts)
+Vulnerable state for ghosts (Pacman power up)
